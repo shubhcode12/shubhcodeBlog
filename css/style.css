@@ -6,8 +6,14 @@
   font-style: normal;
 }
 html {
-  background: #fff;
+  background: #121212;
 }
+
+li {
+  
+     color: #fff;
+}
+
 
 body {
   font-family: "Roboto", arial, sans-serif;
@@ -15,7 +21,7 @@ body {
   font-weight: 300;
   line-height: 1.8;
   color: #222;
-  background: #fff;
+  background: #121212;
 }
 body.fh5co-overflow {
   overflow-x: auto;
@@ -50,7 +56,7 @@ a:hover, a:focus, a:active {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", times, serif;
-  color: #000;
+  color: #fff;
 }
 
 p {
@@ -210,6 +216,7 @@ p {
 #fh5co-header {
   padding: 3em 3em;
   float: left;
+  background: #121212;
   width: 100%;
 }
 @media screen and (max-width: 1200px) {
@@ -283,7 +290,7 @@ p {
   text-align: center;
 }
 #fh5co-header #fh5co-logo a {
-  color: #000;
+  color: #fff;
 }
 #fh5co-header #fh5co-logo a sup {
   font-size: 20px;
@@ -297,7 +304,7 @@ p {
   top: 50%;
   height: 50px;
   margin-top: -25px;
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
   font-weight: bold;
   -webkit-transition: 0.5s;
@@ -325,7 +332,7 @@ p {
   top: 7px;
   position: relative;
   font-size: 30px;
-  color: #000;
+  color: #fff;
 }
 
 .fh5co-post-prev {
@@ -334,7 +341,7 @@ p {
 }
 .fh5co-post-prev:hover {
   margin-left: 10px;
-  color: #000;
+  color: #fff;
 }
 @media screen and (max-width: 768px) {
   .fh5co-post-prev {
@@ -349,7 +356,7 @@ p {
 }
 .fh5co-post-next:hover {
   margin-right: 10px;
-  color: #000;
+  color: #fff;
 }
 @media screen and (max-width: 768px) {
   .fh5co-post-next {
@@ -374,6 +381,7 @@ p {
 .fh5co-post-entry article {
   text-align: center;
   float: left;
+  background: #181818; 
   margin-bottom: 110px;
   padding-left: 3em;
   padding-right: 3em;
@@ -414,11 +422,11 @@ p {
 .fh5co-post-entry article h2 {
   font-family: "Playfair Display", times, serif;
   font-size: 34px;
-  color: #000;
+  color: #fff;
   margin-bottom: 30px;
 }
 .fh5co-post-entry article h2 a {
-  color: #000;
+  color: #fff;
 }
 @media screen and (max-width: 992px) {
   .fh5co-post-entry article h2 {
@@ -492,7 +500,7 @@ p {
 }
 .fh5co-post-entry article .fh5co-highlight p {
   font-family: "Playfair Display", times, serif;
-  color: #000;
+  color: #fff;
   font-size: 20px;
 }
 
@@ -510,7 +518,7 @@ p {
 .fh5co-social li a {
   font-size: 20px;
   padding: 4px;
-  color: #000;
+  color: #fff;
 }
 
 figure figcaption {
@@ -520,7 +528,7 @@ figure figcaption {
 }
 
 #fh5co-offcanvas {
-  background: #fff;
+  background: #121212;
   position: fixed;
   top: 0;
   left: 0;
@@ -556,7 +564,7 @@ figure figcaption {
 }
 #fh5co-offcanvas .fh5co-close-offcanvas:hover {
   width: 85px;
-  color: #000;
+  color: #fff;
 }
 #fh5co-offcanvas .fh5co-close-offcanvas > span {
   width: 100px;
@@ -629,7 +637,7 @@ figure figcaption {
   display: block;
 }
 #fh5co-offcanvas .fh5co-menu ul li a {
-  color: #000;
+  color: #fff;
 }
 
 #fh5co-footer {
@@ -640,6 +648,7 @@ figure figcaption {
 .js .to-animate, .js
 .to-animate-2, .js
 .animate-box {
+  margin-top: 50px;
   opacity: 0;
 }
 
