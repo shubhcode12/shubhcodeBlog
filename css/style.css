@@ -22,7 +22,7 @@ body {
   font-weight: 300;
   line-height: 1.8;
   color: #222;
-  background: #303032;
+  background: #121212;
 }
 body.fh5co-overflow {
   overflow-x: auto;
@@ -41,8 +41,13 @@ a:hover, a:focus, a:active {
   text-decoration: none;
 }
 
+h2{
+  color: #fff;
+}
+
 
 p {
+  color: #c4c4c4;
   margin-bottom: 30px;
 }
 
@@ -63,7 +68,7 @@ p {
 #fh5co-header {
   padding: 3em 3em;
   float: left;
-  background: #303032;
+  background: #1f1f1f; /* header cha color */
   width: 100%;
 }
 @media screen and (max-width: 1200px) {
@@ -427,6 +432,7 @@ figure figcaption {
 
 #fh5co-footer {
   padding: 3em 0;
+  color: #fff;
   text-align: center;
 }
 
@@ -458,7 +464,7 @@ figure figcaption {
   *display: inline;
   width: 25px;
   height: 3px;
-  color: #535659;
+  color: #fff;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
@@ -469,7 +475,7 @@ figure figcaption {
   content: '';
   width: 25px;
   height: 3px;
-  background: #535659;
+  background: #fff;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -579,7 +585,7 @@ figure figcaption {
 }
 
 body {
-  background-color: #303032;
+  background-color: #121212; /* body cha color, header chya khali */
 }
 
 main {
@@ -608,7 +614,7 @@ main {
   grid-column-end: span 4;
   display: flex;
   flex-direction: column;
-  background-color: #39393b;
+  background-color: #1e1e1e;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   cursor: pointer;
