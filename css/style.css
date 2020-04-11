@@ -381,8 +381,12 @@ p {
 .fh5co-post-entry article {
   text-align: center;
   float: left;
-  background: #181818; 
-  margin-bottom: 110px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 15px;
+  background: #181818;
+  border-style: solid;
+  margin-bottom: 50px;
   padding-left: 3em;
   padding-right: 3em;
 }
